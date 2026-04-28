@@ -3,9 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaDownload, FaHeart } from "react-icons/fa";
 
-const PhotoCard = ({ photo }) => {
+const PhotoDetailsPage = async ({ params }) => {
+  const { id } = await params;
+  const res = await fetch("https://pixgen-photos.vercel.app/data.json");
+  const photos = await res.json();
+  const expectedCard = photos.find((photo) => photo.id == id);
   const {
-    id,
     title,
     imageUrl,
     prompt,
@@ -16,7 +19,7 @@ const PhotoCard = ({ photo }) => {
     downloads,
     createdAt,
     tags,
-  } = photo;
+  } = expectedCard;
   return (
     <Card className="border my-4">
       <div className="space-y-4">
@@ -35,6 +38,9 @@ const PhotoCard = ({ photo }) => {
         <div>
           <h2 className="font-semibold text-xl">{title}</h2>
         </div>
+        <div>
+          <h2 className="">{prompt}</h2>
+        </div>
         <div className="flex gap-5">
           <div className="flex items-center gap-2">
             <p className="text-red-500">
@@ -51,9 +57,9 @@ const PhotoCard = ({ photo }) => {
             <p>{downloads}</p>
           </div>
         </div>
-        <Link href={`/all-photos/${id}`}>
+        <Link href={`/all-photos`}>
           <Button variant="secondary" className={"w-full"}>
-            View Photo
+            All Photos
           </Button>
         </Link>
       </div>
@@ -61,4 +67,4 @@ const PhotoCard = ({ photo }) => {
   );
 };
 
-export default PhotoCard;
+export default PhotoDetailsPage;
