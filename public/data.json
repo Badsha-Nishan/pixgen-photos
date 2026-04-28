@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Neon Drift Colony",
-    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop",
     "prompt": "futuristic floating colony with neon lights, drifting in space, ultra-detailed, cinematic lighting",
     "category": "Sci-Fi",
     "model": "Midjourney v6",
@@ -15,7 +15,7 @@
   {
     "id": 2,
     "title": "Pixel Samurai Duel",
-    "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop",
     "prompt": "pixel art samurai duel at sunset, retro game style, 16-bit aesthetic",
     "category": "Pixel Art",
     "model": "Stable Diffusion",
@@ -28,7 +28,7 @@
   {
     "id": 3,
     "title": "Dragon's Crystal Keep",
-    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop",
     "prompt": "massive dragon guarding a glowing crystal castle in a fantasy world, epic scale, vibrant colors",
     "category": "Fantasy",
     "model": "DALL·E 3",
@@ -41,7 +41,7 @@
   {
     "id": 4,
     "title": "Rainy Neon Alley",
-    "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop",
     "prompt": "cyberpunk alley with neon signs reflecting in rain puddles, moody atmosphere",
     "category": "Cyberpunk",
     "model": "SDXL",
@@ -54,7 +54,7 @@
   {
     "id": 5,
     "title": "Floating Desert Whales",
-    "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop",
     "prompt": "giant whales floating above a desert, surreal dreamscape, soft pastel tones",
     "category": "Surreal",
     "model": "Midjourney v6",
@@ -67,7 +67,7 @@
   {
     "id": 6,
     "title": "Retro Sunset Grid",
-    "imageUrl": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1492724441997-5dc865305da7?q=80&w=1200&auto=format&fit=crop",
     "prompt": "vaporwave sunset over grid landscape with palm trees, retro 80s aesthetic",
     "category": "Vaporwave",
     "model": "Stable Diffusion",
@@ -80,7 +80,7 @@
   {
     "id": 7,
     "title": "Hyperreal Mountain Lake",
-    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
     "prompt": "ultra realistic mountain lake with reflections, high dynamic range, 8k detail",
     "category": "Realistic",
     "model": "DALL·E 3",
@@ -93,7 +93,7 @@
   {
     "id": 8,
     "title": "White Balance Sphere",
-    "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop",
     "prompt": "minimalist white sphere floating in empty space, soft shadows, clean composition",
     "category": "Minimal",
     "model": "SDXL",
@@ -106,7 +106,7 @@
   {
     "id": 9,
     "title": "Clockwork Airship Armada",
-    "imageUrl": "https://images.unsplash.com/photo-1470290378698-263fa7ca5d1b?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1470290378698-263fa7ca5d1b?q=80&w=1200&auto=format&fit=crop",
     "prompt": "steampunk airships flying in formation, brass gears and steam engines, detailed sky",
     "category": "Steampunk",
     "model": "Midjourney v6",
@@ -119,7 +119,7 @@
   {
     "id": 10,
     "title": "Alien Forest Glow",
-    "imageUrl": "https://images.unsplash.com/photo-1500534623283-312aade485b7?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1500534623283-312aade485b7?q=80&w=1200&auto=format&fit=crop",
     "prompt": "bioluminescent alien forest with glowing plants and creatures, sci-fi environment",
     "category": "Sci-Fi",
     "model": "SDXL",
@@ -132,7 +132,7 @@
   {
     "id": 11,
     "title": "Pixel Space Explorer",
-    "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1200&auto=format&fit=crop",
     "prompt": "pixel art astronaut exploring space station, retro arcade style",
     "category": "Pixel Art",
     "model": "Stable Diffusion",
@@ -145,7 +145,7 @@
   {
     "id": 12,
     "title": "Enchanted Forest Portal",
-    "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop",
     "prompt": "mystical portal glowing in enchanted forest, fantasy magic particles",
     "category": "Fantasy",
     "model": "DALL·E 3",
@@ -158,7 +158,7 @@
   {
     "id": 13,
     "title": "Cybernetic Street Samurai",
-    "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop",
     "prompt": "cyberpunk samurai with glowing implants standing in futuristic street",
     "category": "Cyberpunk",
     "model": "Midjourney v6",
@@ -171,7 +171,7 @@
   {
     "id": 14,
     "title": "Melting Clock Horizon",
-    "imageUrl": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=1200&auto=format&fit=crop",
     "prompt": "surreal landscape with melting clocks over horizon, dreamlike distortion",
     "category": "Surreal",
     "model": "SDXL",
@@ -184,7 +184,7 @@
   {
     "id": 15,
     "title": "Minimal Line Horizon",
-    "imageUrl": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1200&auto=format&fit=crop  ",
+    "imageUrl": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1200&auto=format&fit=crop",
     "prompt": "simple horizon with single line and gradient sky, minimalist composition",
     "category": "Minimal",
     "model": "Stable Diffusion",
