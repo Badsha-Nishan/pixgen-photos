@@ -1,4 +1,5 @@
 "use client";
+import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
 import {
   Button,
@@ -9,17 +10,28 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import { createAuthClient } from "better-auth/react";
 
-const SignIn = () => {
-  const onSubmit = (e) => {
+const authClient = createAuthClient();
+
+const SignIn = async () => {
+  const data = await authClient.signIn.social({
+    provider: "google",
+  });
+
+  const onSubmit = async (e) => {
     e.preventDefault();
-    const formData = new FormData(e.currentTarget);
-    const data = {};
-    // Convert FormData to plain object
-    formData.forEach((value, key) => {
-      data[key] = value.toString();
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+    const { data, error } = await authClient.signIn.email({
+      email,
+      password,
+      callbackURL: "/",
     });
-    alert(`Form submitted with: ${JSON.stringify(data, null, 2)}`);
+    console.log(data, error.message);
+    if (error) {
+      alert(`"ERROR", ${error.message}`);
+    }
   };
   return (
     <Form
@@ -38,7 +50,7 @@ const SignIn = () => {
         }}
       >
         <Label>Email</Label>
-        <Input placeholder="john@example.com" />
+        <Input placeholder="Enter Your Email" />
         <FieldError />
       </TextField>
       <TextField
