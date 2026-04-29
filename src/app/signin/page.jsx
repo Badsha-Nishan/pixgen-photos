@@ -1,6 +1,7 @@
 "use client";
 import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
+import { FaGoogle } from "react-icons/fa";
 import {
   Button,
   Description,
@@ -87,7 +88,12 @@ const SignInPage = () => {
         </Button>
       </div>
       <p className="text-center">or</p>
-      <Button className={"w-full"} onClick={handleGoogleSignIn}>
+      <Button
+        variant="secondary"
+        className={"w-full"}
+        onClick={handleGoogleSignIn}
+      >
+        <FaGoogle />
         Sign In With Google
       </Button>
     </Form>
